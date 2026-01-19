@@ -30,3 +30,5 @@ Datacamp
 
   I plan to work primarily in the library and structure my schedule in relation to my softball practice and lifts.
 
+### <ins>Progress Tracking</ins>
+  I will document my progress through progression in the R for Data Science textbook and coding examples I can report. My goal for the end of this week is to go through and identify specific plots and skills I want to work on, find datasets that contain structures I need to create those visualizations, and then try and output one/two markdown files exemplifying those skills for each week. I will create a progress tracker in Google sheets to keep track of this.
