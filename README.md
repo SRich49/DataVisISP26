@@ -1,4 +1,2 @@
 # GitHubLearningISP26
-This repository will be used as a demonstration of data science skills I have learned during my Independent Study Project at New College of Florida in January of 2026.
-
-The goal of this ISP is to learn how to work in GitHub.
+This repository will serve as a guide on how to use GitHub following the HappyGit with R textbook along with supplementary materials. It will also contain a sample of projects to demonstrate technical skills as an initial portfolio of works.
