@@ -399,6 +399,41 @@ origin GITHUB_URL adds the remote GITHUB_URL with nickname origin. git
 remote set-url origin GITHUB_URL changes the remote url of origin to
 GITHUB_URL. This way you can fix typos in the remote url.</p>
 </div>
+<div id="chapter-7-introduce-yourself-to-git" class="section level3">
+<h3><ins> Chapter 7: Introduce yourself to Git </ins></h3>
+<p>In the shell: git config –global user.name “Jane Doe” git config
+–global user.email “<a href="mailto:jane@example.com" class="email">jane@example.com</a>” git config –global –list</p>
+<p>sub in name and <strong>email associated with your GitHub
+account</strong></p>
+</div>
+<div id="chapter-8-install-a-git-client-high-recommend" class="section level3">
+<h3><ins> Chapter 8: Install a Git Client (high recommend) </ins></h3>
+<p>Use of a GUI opposed to command is extermely helpful, especially when
+getting started</p>
+<p>Git is really just individual commands executed in the shell, which
+can be unappealing. You may prefer to do Git operation via a client with
+a GUI. RStudio offer a very basic Git client via its Git pane. While
+this is good for simple operations, it is recommended to also install a
+more powerful one.</p>
+<p>n.b. you may have to use the command line for some things</p>
+</div>
+<div id="chapter-9-personal-access-token-for-https" class="section level3">
+<h3><ins> Chapter 9: Personal access token for HTTPS </ins></h3>
+<p>Allows communication with a remote server to prove we are a specific
+GitHub user You can use SSH also, but HTTPS is recommend Setting up a
+personal access token (PAT)</p>
+<p>Go to <a href="https://github.com/settings/tokens">GitHub Token</a>
+and click “Generate token.”</p>
+<p>to do this from R: usethis::create_github_token() Copy PAT as you
+will not be able to come back for it, you will provide it next time a
+Git operation asks for your password</p>
+<p>You can get out of this by storing the PAT explicity in R
+gitcreds::gitcreds_set()</p>
+<p>? Enter password or token: ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-&gt; Adding new credentials… -&gt; Removing credentials from cache…
+-&gt; Done.</p>
+<p>You should now be able to work with GitHub now (push/pull) Yay!</p>
+</div>
 
 
 

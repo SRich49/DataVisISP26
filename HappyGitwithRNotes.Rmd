@@ -44,5 +44,40 @@ git remote -v lists all remotes. Very useful for making sure git knows about you
 git remote add origin GITHUB_URL adds the remote GITHUB_URL with nickname origin.
 git remote set-url origin GITHUB_URL changes the remote url of origin to GITHUB_URL. This way you can fix typos in the remote url.
 
+### <ins> Chapter 7: Introduce yourself to Git </ins>
+In the shell: 
+git config --global user.name "Jane Doe"
+git config --global user.email "jane@example.com"
+git config --global --list
 
+sub in name and **email associated with your GitHub account**
+
+### <ins> Chapter 8: Install a Git Client (high recommend) </ins>
+Use of a GUI opposed to command is extermely helpful, especially when getting started
+
+Git is really just individual commands executed in the shell, which can be unappealing. You may prefer to do Git operation via a client with a GUI.
+RStudio offer a very basic Git client via its Git pane. While this is good for simple operations, it is recommended to also install a more powerful one.
+
+n.b. you may have to use the command line for some things
+
+### <ins> Chapter 9: Personal access token for HTTPS </ins>
+Allows communication with a remote server to prove we are a specific GitHub user
+You can use SSH also, but HTTPS is recommend
+Setting up a personal access token (PAT)
+
+Go to [GitHub Token](https://github.com/settings/tokens) and click "Generate token."
+
+to do this from R:
+  usethis::create_github_token()
+Copy PAT as you will not be able to come back for it, you will provide it next time a Git operation asks for your password
+
+You can get out of this by storing the PAT explicity in R
+  gitcreds::gitcreds_set()
+
+  ? Enter password or token:                    ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-> Adding new credentials…
+-> Removing credentials from cache…
+-> Done.
+
+You should now be able to work with GitHub now (push/pull) Yay!
 
