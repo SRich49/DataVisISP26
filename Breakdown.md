@@ -39,3 +39,41 @@ tutorial, but will be reviewed)
 - Test drive R Markdown
 
 - Rendering R script
+
+### <ins> Fundamentals Chapter </ins>
+
+- Basics: repo, commit, diff, tag
+
+- Commands
+
+- Branches
+
+- Remotes
+
+- Refs
+
+### <ins>Remote Setups Chapter</ins>
+
+Brief, possible read through
+
+### <ins>Daily Workflows Chapter</ins>
+
+- Covers local work
+
+- Cloning
+
+- Pull requests
+
+- Making browsable
+
+### <ins>Activity Prompts Chapter</ins>
+
+- Cloning
+
+- Creating a bingo card
+
+- “Burn it all down”
+
+- Resetting
+
+- Search Github
