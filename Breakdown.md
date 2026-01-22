@@ -42,6 +42,8 @@ tutorial, but will be reviewed)
 
 ### <ins> Fundamentals Chapter </ins>
 
+Chapters 20-23
+
 - Basics: repo, commit, diff, tag
 
 - Commands
@@ -54,9 +56,13 @@ tutorial, but will be reviewed)
 
 ### <ins>Remote Setups Chapter</ins>
 
+Chapters 25-26
+
 Brief, possible read through
 
 ### <ins>Daily Workflows Chapter</ins>
+
+Chapters 27-34
 
 - Covers local work
 
@@ -68,6 +74,8 @@ Brief, possible read through
 
 ### <ins>Activity Prompts Chapter</ins>
 
+Chapters 35-39
+
 - Cloning
 
 - Creating a bingo card
@@ -77,3 +85,7 @@ Brief, possible read through
 - Resetting
 
 - Search Github
+
+### <ins> Appendix </ins>
+
+- The Shell
