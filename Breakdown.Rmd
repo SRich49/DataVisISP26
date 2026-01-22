@@ -1,13 +1,46 @@
 ---
-title: "Breakdown"
+title: "HappyGit with R Textbook Breakdown"
 author: "Sydney Rich"
-date: "2026-01-19"
-output: html_document
+date: "2026-01-16"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Breakdown
+### <ins>Installation</ins>
 
+Chapters 4-8
+
+-   Registering account
+
+-   Connecting R and RStudio
+
+-   Git installation and familiarization (Git Client Installation)
+
+### <ins> Connect Git, GitHub, RStudio </ins>
+
+Chapters 9-14
+
+-   Personal access token and setup keys
+
+-   Connecting RStudio to Git and GitHub
+
+-   Detecting Git in RStudio
+
+-   Troubleshooting
+
+### <ins>Early GitHub Wins</ins>
+
+Chapters 15-19
+
+(Most of this has been done previously as part of GitHub's built in tutorial, but will be reviewed)
+
+-   New project, GitHub first
+
+-   Existing projects, GitHub both first and last
+
+-   Test drive R Markdown
+
+-   Rendering R script
